@@ -1,0 +1,65 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-align: center;
+}
+body{
+	height: 850px;
+	width: 1000px;
+	margin: auto;
+	border: 5px solid red;
+	padding: 5pxs;
+}
+/*tamaño del borde azul*/
+header{
+	width: 99%;
+	height: 30%;
+	padding: .5em;
+}
+/*tamaño de la tabla menu*/
+nav,footer{
+height: 8%;
+width: 99%;
+}
+main{
+	/*tamaño de la caja articulo y aparte*/
+	height: 50%;
+	padding: .5em;
+}
+/*tamaño del borde verde logo*/
+.logo{
+width: 26%;
+height: 100%;
+margin-right: .5em;
+float: left;
+}
+.banner{
+	width: 73%;
+	height: 99%;
+	float: left;
+}
+.b-blue{
+	border: solid 5px blue;
+}
+.b-lime{
+	border: solid 5px limegreen;
+
+}
+/*tañamo del articulo*/
+article{
+	width: 69%;
+	height: 100%;
+	margin-right: .5em;
+	float: left;
+}
+/*tamaño de aside*/
+aside{
+	width: 30%;
+	height: 100%;
+	float: left;
+}
+/*Margen inferior*/
+.m-inf{
+	margin: .5em;
+}

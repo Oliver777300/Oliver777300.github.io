@@ -1,0 +1,82 @@
+*{
+	box-sizing: border-box;
+}
+.body{
+	font-size: 1,5em;
+}
+.box{
+	box-sizing: border-box;
+	background-color: limegreen;
+	padding: 50px;
+	width: 	300px;
+	height: 	300px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+}
+/*dibujamos circulos en cada esquina*/
+.box-1{
+border-top-left-radius: 50px;
+border-top-right-radius: 100px;
+border-bottom-right-radius: 200px;
+border-bottom-left-radius: 30px;
+}
+/*shorthand*/
+.box-2{
+	border-radius: 50px 100px 200px 30px;
+}
+/*dibujAMOS UNA ELIPSE EN CADA ESQUINA*/
+.box-3{
+	
+	border-top-left-radius: 50px 100px;
+border-top-right-radius: 100px 50px;
+border-bottom-right-radius: 200px 60px;
+border-bottom-left-radius: 30px 80px;
+}
+/*shorthand*/
+.box-4{
+	border-radius: 50px 100px 200px 30px / 100px 50px 60px 80px;
+}
+/*dibujamos un circulo*/
+.box-5{
+	border-radius: 50%;
+}
+.box-6{
+	width: 700px;
+	height: 700px;
+
+}
+.box-7{
+	background-color: darkblue;
+	border-radius: 50%;
+	margin-left: auto;
+	width: 400px;
+	height: 400px;
+}
+.box-8{
+
+	background-color: black;
+	border-radius: 50%;
+	margin-left: auto;
+
+}
+.box-9{
+
+	background-color: white;
+	border-radius: 50%;
+	margin-left: auto;
+	width: 200px;
+	height: 200px;
+}
+.box-10{
+
+	background-color: limegreen;
+	border-radius: 50%;
+	margin-left: auto;
+	width: 50px;
+	height: 50px;
+}
+.box-11{
+	
+}
+
